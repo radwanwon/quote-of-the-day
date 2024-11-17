@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote of the Day</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.ico" />
+    <!-- icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- background  -->
+    <div class="ocean">
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-gradient">
+      <div class="container">
+        <a class="navbar-brand" href="#">Second JS Assignment</a>
+      </div>
+    </nav>
+    <!-- Quuotes -->
+    <div class="contanier">
+      <div class="qoute text-center pt-3">
+        <h1>Quote of the Day</h1>
+        <p class="pt-5">Press the button below to recieve a random quote!</p>
+        <button id="toggleButton" onclick="showQuote()" class="glow-on-hover fs-4" type="button">
+          NEW QUOTE
+        </button>
+        <div class="box mx-auto mt-5 pt-3 ">
+          <p id="quote">!</p>
+          <p id="author"></p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- JS Link -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
